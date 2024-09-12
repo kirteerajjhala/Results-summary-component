@@ -1,0 +1,284 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width:100%;
+    height: 100vh;
+    background-color: rgb(236, 231, 231);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: "Hanken Grotesk", sans-serif;
+    flex-wrap: wrap;
+
+}
+.box1{
+    width: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    margin: 0%;
+background: linear-gradient(to top,rgb(15, 12, 219),rgb(110, 1, 243));    
+}
+.box1,p{
+
+    
+    text-align: center;
+    padding: 13px 0px 0px 0px;
+    font-weight: 700;
+    color: rgb(222, 215, 228);
+}
+
+
+.circle{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    
+    background: linear-gradient(rgb(56, 13, 212),rgb(17, 14, 223));
+    box-shadow: 10px 10px 8px 4px rgb(20, 20, 228) #2e09e6,#1b16bb,#432FE0,-10px -10px 8px 4px rgb(0, 0, 255) #2e09e6,#1b16bb,#432FE0 ;
+    align-self: center;
+    margin-top: 50px;
+  
+   
+    
+}
+.k1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:23px;
+}
+.k1,h1{
+    margin-top: 20px;
+  
+}
+.k2{
+margin-top: 0%;
+height:20px ;
+font-size: 10px;
+ 
+
+}
+.k3{
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.k4{
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 100;
+    padding:15px 35px 10px 35px;
+    color:rgba(244, 244, 250, 0.685);
+
+}
+
+.box2{
+    width: 300px;
+    height: 400px;
+    background-color: #ffff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+}
+h2{
+    font-weight: bolder;
+    color: black;
+    margin-top: 0%;
+    font-size: 20px;
+}
+.cont{
+    display: flex;
+    justify-self:center;
+    flex-direction: column;
+    grid-row: 50px;
+
+}
+.box31{
+    width: 90%;
+    height: 40px;
+    background-color:rgb(255, 183, 183);
+    border-radius: 10px;
+   color: rgb(252, 95, 95);
+   font-weight: 600;
+display: flex;
+
+    
+
+
+
+}
+
+.box32{
+    width: 90%;
+    height: 40px;
+    background-color:rgb(255, 218, 138);
+    border-radius: 10px;
+  
+    color: rgb(199, 199, 5);
+    font-weight: 600;
+    display: flex;
+
+    
+
+
+
+}
+.box33{
+    width: 90%;
+    height: 40px;
+    background-color:rgb(15, 150, 125);
+    border-radius: 10px;
+   
+    color: rgb(43, 233, 240);
+    font-weight: 600;
+    display: flex;
+
+
+
+}
+.box34{
+    width: 90%;
+    height: 40px;
+    background-color:#d3c6eb;
+    border-radius: 10px;
+   
+    color: rgb(17, 7, 104);
+    font-weight: 600;
+    display: flex;
+    
+
+
+
+}
+
+.box35{
+    width: 90%;
+    height: 40px;
+    background-color: rgb(0, 5, 41);
+    border-radius: 20px;
+margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    margin-left: 8px;
+
+
+}
+.box31,svg{
+    margin-top: 7px;
+    margin-left:10px ;
+}
+.r1{
+
+    
+    margin-top: 9px;
+    margin-left: 12px;
+}
+.box32,svg{
+    margin-top: 7px;
+    margin-left:10px ;
+}
+.r2{
+
+    
+    margin-top: 9px;
+    margin-left: 12px;
+}
+.box33,svg{
+    margin-top: 7px;
+    margin-left:10px ;
+}
+.r3{
+
+    
+    margin-top: 9px;
+    margin-left: 12px;
+}
+.box34,svg{
+    margin-top: 7px;
+    margin-left:10px ;
+}
+.r4{
+
+    
+    margin-top: 9px;
+    margin-left: 12px;
+}
+.j1{
+  margin-top: 7px;
+  margin-left: 50px;
+  font-size: 13px;
+  font-weight: bolder;
+}
+span{
+    margin-top: 7px;
+    color: rgb(0, 0, 27);
+    font-size: 13px;
+    font-weight: bolder;
+}
+.j2{
+    color: rgb(245, 236, 236);
+    font-size: 13px;
+    font-weight: bolder;
+}
+.j3{
+    margin-top: 7px;
+    margin-left: 55px;
+    font-size: 13px;
+    font-weight: bolder;
+  }
+  span{
+      margin-top: 7px;
+      color: rgb(0, 0, 27);
+      font-size: 13px;
+      font-weight: bolder;
+  }
+  .j4{
+    color: rgb(245, 236, 236);
+    font-size: 13px;
+    font-weight: bolder;
+}
+  .j5{
+    margin-top: 7px;
+    margin-left: 68px;
+    font-size: 13px;
+    font-weight: bolder;
+  }
+  span{
+      margin-top: 7px;
+      color: rgb(0, 0, 27);
+      font-size: 13px;
+      font-weight: bolder;
+  }
+  .j6{
+    color: rgb(245, 236, 236);
+    font-size: 13px;
+    font-weight: bolder;
+}
+  .j7{
+    margin-top: 7px;
+    margin-left: 67px;
+    font-size: 13px;
+    font-weight: bolder;
+  }
+  span{
+      margin-top: 7px;
+      color: rgb(0, 0, 27);
+      font-size: 13px;
+      font-weight: bolder;
+  }
+  .j8{
+    color: rgb(245, 236, 236);
+    font-size: 13px;
+    font-weight: bolder;
+}
+
+
+
